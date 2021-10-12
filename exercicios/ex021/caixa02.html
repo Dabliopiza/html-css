@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+       
+        body{
+            font:normal 16px arial;
+            background-color: rgb(41, 41, 41);
+            margin: 0px;
+        }
+        header{
+            background-color: white;
+            border-radius: 6px;
+            text-align:center;
+            margin:10px;
+            padding-bottom: 10px;
+            padding-left: 4px;
+            padding-right: 4px;
+            padding-top: 2px;
+        }
+        main{
+            background-color: rgb(255, 253, 253);
+            border-radius: 36px 0px;
+            padding: 10px;
+            margin: 10px ;
+
+        }
+        aside{
+            background-color: rgb(83, 83, 83);
+            margin: 0px;
+            
+          
+        }
+        footer{
+            background-color: rgb(0, 108, 141);
+            text-align: center;
+            color: white;
+            padding: 5px;
+            font:normal 20px arial;
+            border-style:dashed;
+          border-color: rgb(0, 0, 0);
+        }
+        article{
+          background-color: rgb(165, 165, 165);
+          padding: 5px;   
+        }
+        h2{
+            text-align: center;
+        }
+        nav{
+           background-color: rgb(63, 63, 63);
+           padding: 3px;
+           box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.445)
+        }
+        nav > a{
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+            margin-right: 30px;
+        }
+       p#personalisado{
+          font-family: 'Bungee', cursive;
+          border-radius: 4px;
+          background-color: slategrey;
+          text-align: center;
+          box-shadow:3px 3px  2px rgb(65, 65, 65);
+        }
+        h1{
+            font:normal 25px 'Bungee' ; 
+            border-style:dashed;
+            border-color: rgb(0, 0, 0);
+            text-align: center;
+            text-shadow:4px 4px 4px rgba(0, 0, 0, 0.582);
+        }   
+        nav:active{
+            color: rgb(0, 128, 255);
+        }
+        footer > p{
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+<p id="personalisado">Esprtes politica e tecnologia</p>
+        </section>
+        <section id="noticias">
+           <article>
+               <h2>Notícia sobre o Brasil</h2>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ipsa alias repudiandae? Dolorum eveniet assumenda, at quos officiis nemo, enim dolores est, nihil ad perferendis numquam culpa mollitia aliquid ea.</p>
+               <aside>
+                   <p>Artigo escrito por Jose da silva</p>
+               </aside>
+           </article>
+        </section>
+    </main>
+    <footer>
+       <p>Desenvolvido pelo Dablio
+       </p>
+    </footer>
+</body>
+</html>

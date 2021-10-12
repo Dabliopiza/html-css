@@ -1,0 +1,148 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root{
+    --cor0:#012840;
+    --cor1:#175973;
+    --cor2:#2999A6;
+    --cor3:#7ED9D9;
+    --cor4:#D0F2F2;
+
+    --font-destaque:'Bebas Neue', cursive;
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: var(--cor4);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1.titulo{
+margin-bottom: 20px;
+margin-top: 20px;
+font: normal 80px 'Bebas Neue';
+text-shadow: 3px 3px 2px rgb(0, 0, 0);
+}
+
+h2#max{
+    background-image: linear-gradient(to right, var(--cor2), transparent);
+    padding: 5px;
+    border-radius:5px;
+}
+
+img{
+    margin: 10px;
+    padding: 15px;
+    display: block;
+    max-width: 65%;
+    margin: auto;
+}
+
+main{
+    background-color: white;
+    min-width: 300px;
+    max-width: 1000px;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.473);
+    line-height: 2em;
+    text-indent: 10px; 
+    font-size: 1.1em;
+}
+
+header{
+    background-image: linear-gradient(to bottom, var(--cor2), var(--cor0));
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+nav{
+    background-color: var(--cor0);
+    padding: 15px;
+}
+
+nav > a{
+    color: white;
+    padding: 7px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.5s;
+    font: normal 20px 'Bebas Neue';
+}
+
+nav >:hover{
+    background-color: var(--cor4);
+    color: var(--cor1);
+    padding: 15px;
+}
+
+h1{
+    padding: 10px;
+    font: bold 30px arial;
+}
+
+h1#letra{
+    text-align: center;
+    font: normal 60px var(--font-destaque);
+}
+
+footer{
+    background-color: var(--cor0);
+    color: white;
+    padding: 15px;
+    margin-top: 20px;
+    font: bold  30px 'Bebas Neue';
+    text-align: center;
+}
+
+div.video{
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 59%;
+    position: relative;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+aside{
+    background-image: linear-gradient(to right, var(--cor2),var(--cor3));
+    border-radius: 7px;
+    margin-top: 30px;
+}
+
+h1#grande {
+    font: bold 40px 'Bebas Neue';
+    text-align: center;
+}
+
+p#teste {
+    font: bold 20px arial;
+    text-align: center;
+}
+
+h1#letra2{
+    font: normal 50px 'Bebas Neue';
+}
+
+strong {
+    background-color: var(--cor0);
+    color:white;
+    padding: 3px;
+    border-radius: 5px;
+}

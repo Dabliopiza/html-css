@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+
+body{
+    background-image: linear-gradient(to right, #5ACEE8, #4F86FF);
+}
+main{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow:  5px 5px 15px #2c5885;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
+h1{
+    color:#3d72bd ;
+    text-align: center;
+    text-shadow: 5px 5px 7px #3d72bdb0;
+}
+h2{
+    color: #00a17c;
+}
+p{
+    text-align: justify;
+}
+

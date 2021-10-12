@@ -1,0 +1,156 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap'); 
+
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+
+:root {
+    --color0:#bccffd;
+    --color1:#A7D5F2;
+    --color2:#1C7FA6;
+    --color3:#024059;
+    --color4:#0D0D0D;
+
+    --font-normal:arial, sans-serif ;
+    --font-destaque:'Bebas Neue', arial ;
+    --font-personalisada:'Rampart One';
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color:var(--color0);
+}
+
+header{
+    background-image: linear-gradient(to bottom, var(--color2), var(--color3)) ;
+    margin: 0px;
+}
+
+h1#header {
+    text-align: center;
+    padding: 30px;
+    font: normal 45px 'Bugee';
+    font-family: var(--font-destaque);
+    color: white;
+    text-shadow: 3px 3px 2px #0D0D0D;
+}
+
+h1 {
+    padding-bottom: 14.3px;
+    padding-top: 17px;
+    font:normal 40px var(--font-destaque);
+}
+
+p#header {
+    text-align: center;
+}
+
+nav {
+    background-color:var(--color3);
+    padding: 8px;
+    font-family: var(--font-destaque);
+    font: normal 22px var(--font-destaque);
+    box-shadow:0px 3px 8px #4b4b4b  ;
+}
+
+nav :hover {
+    background-color: var(--color1);
+    color: var(--color4);
+    padding: 13px;
+    padding: auto;
+    padding-bottom: 7px;
+}
+
+nav > a {
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+    border-radius: 6px;
+    transition-duration: .5s;
+    font-weight: normal;
+}
+
+nav :active {
+    color: var(--color2);
+    transition-duration:.4s ;
+}
+
+main{
+    background-color: white;
+    text-align: justify;
+    min-width: 300px;
+    max-width:1000px ;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 20px;
+    font-family: var(--font-normal);
+    border-radius: 15px;
+    line-height: 2em;
+    font-size: 1.2em;
+    box-shadow:0px 0px 10px #0000007a;
+}
+
+img {
+    max-width:65%;
+    padding: 15px;
+}
+
+img#personalisado {
+    max-width: 75%;
+    display: block;
+    margin: auto;
+}
+
+aside {
+    background-color: var(--color3);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+aside#tec {
+    background-color: var(--color2);
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1#saiba {
+    background-color: var(--color0);
+    border-radius: 3px;
+    padding: 3px;
+    text-align: center;
+}
+
+h1#tecnicon {
+    background-color: var(--color0);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+p#tecnicon-p {
+    color: white;
+}
+
+p#per{
+    color: white;
+}
+
+footer {
+    background-color: var(--color2);
+    font: normal 35px 'Rampart One';
+    color: white;
+    text-align: center;
+    padding: 7px;   
+}
+
+strong {
+    color: white;
+    font: normal 45px 'Rampart One';
+}

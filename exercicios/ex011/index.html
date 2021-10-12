@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+    <style>
+        body{
+            font: normal 15pt arial;
+            text-align: center;
+            background-color: rgb(82, 82, 82);       
+        }
+        p{
+            font: normal 20pt arial;
+            color: white;
+        }
+        h1{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+     <h1>Imagens dinâmicas</h1>
+     <p>Tente abrir esse site em varios dispositivos diferentes ou simplesmente aumente e diminua o tamanho do se navegador.</p>
+
+     <picture>
+        <source media="(max-width:750px )" srcset="imagens/naruto-400.jpg" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/naruto-700.jpg" type="image/png">
+        <img src="imagens/naruto-1000.jpg" alt="imagem flexível">
+     </picture>
+
+     <h1>Reproduzindo áudio</h1>
+     <p>Vamaos aprender a reprodezir áudios emHTML5.</p>
+     <audio preload="metadata" src="midia/Naruto Theme - The Raising Fighting Spirit.mp3" controls autoplay></audio>
+
+     <h1 >Segundo audio</h1>
+     <audio preload="metadata" src="midia/Blue Bird.mp3" controls></audio> 
+     <!--nota 10-->    
+</body>
+</html>
