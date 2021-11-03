@@ -168,12 +168,20 @@ div.video > iframe {
     height: 90%;
 }
 
-footer p{
+footer p {
     background-color: var(--cor5);
     color: white;
     margin-top: 20px;
-    font: normal 30px var(--font-destaque);
+    padding: 10px;
+    font: normal 40px var(--font-destaque);
     text-align: center;
+}
+
+footer p:hover {
+    transition-duration: 1s;
+    padding: 20px;
+    background-color: var(--cor2);
+    color: black;
 }
 
 aside{
